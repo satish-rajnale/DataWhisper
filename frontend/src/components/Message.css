@@ -1,0 +1,107 @@
+.message {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background: #f5f5f5;
+}
+
+.message-user {
+  background: #e3f2fd;
+  margin-left: 2rem;
+}
+
+.message-assistant {
+  background: #f1f8e9;
+  margin-right: 2rem;
+}
+
+.message-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #666;
+}
+
+.message-content {
+  color: #333;
+}
+
+.message-content p {
+  margin: 0 0 0.5rem 0;
+  line-height: 1.6;
+}
+
+.message-error {
+  color: #d32f2f;
+  padding: 0.75rem;
+  background: #ffebee;
+  border-left: 4px solid #d32f2f;
+  border-radius: 4px;
+}
+
+.message-sql,
+.message-data {
+  margin-top: 0.75rem;
+  padding: 0.75rem;
+  background: white;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.message-sql summary,
+.message-data summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #1976d2;
+  margin-bottom: 0.5rem;
+}
+
+.message-sql pre {
+  margin: 0;
+  padding: 0.5rem;
+  background: #f5f5f5;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-size: 0.875rem;
+  font-family: 'Courier New', monospace;
+}
+
+.message-table-container {
+  overflow-x: auto;
+  margin-top: 0.5rem;
+}
+
+.message-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.message-table th,
+.message-table td {
+  padding: 0.5rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.message-table th {
+  background: #f5f5f5;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+}
+
+.message-table tr:hover {
+  background: #f9f9f9;
+}
+
+.message-table-note {
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: #666;
+  font-style: italic;
+}
+
